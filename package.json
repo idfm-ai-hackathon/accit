@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "build": "next build",
     "dev": "next dev --turbopack",
     "format": "prettier --config prettier.cjs --write .",
     "lint": "next lint",
-    "prepare": "husky install",
     "prettier:check": "prettier --config prettier.cjs --check .",
     "start": "next start"
   },
