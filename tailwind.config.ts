@@ -61,6 +61,12 @@ export default {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      fontFamily: {
+        "body-light": ["Raleway-light", "sans-serif"],
+        body: ["Raleway", "sans-serif"],
+        "body-semibold": ["Raleway-semibold", "sans-serif"],
+        "body-bold": ["Raleway-bold", "sans-serif"],
+      },
     },
   },
   plugins: [tailwindcssAnimate],

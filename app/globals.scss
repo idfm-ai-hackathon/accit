@@ -153,6 +153,38 @@ body {
 }
 
 @layer base {
+  // font families
+  @font-face {
+    font-family: "Raleway-light";
+    font-style: normal;
+    font-weight: 300;
+    font-display: block;
+    src: url("./fonts/Raleway-Light.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("./fonts/Raleway-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Raleway-semibold";
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url("./fonts/Raleway-SemiBold.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Raleway-bold";
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url("./fonts/Raleway-Bold.ttf") format("truetype");
+  }
+}
+
+@layer base {
   * {
     @apply border-border;
   }
