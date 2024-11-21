@@ -1,9 +1,54 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.8.6">
   <diagram name="Page-1" id="RaLW3R-K5o47preP8qZF">
-    <mxGraphModel>
+    <mxGraphModel dx="1194" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="49zA7E8uAgKN05ij7QbK-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="49zA7E8uAgKN05ij7QbK-1" target="49zA7E8uAgKN05ij7QbK-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="49zA7E8uAgKN05ij7QbK-1" value="&lt;div&gt;En tant qu’utilisateur, avec les besoins d’aménagements $1, $2, $3, je suis sur le ${trajet A -&amp;gt; B}, à l’${endroit X} sur la ${ligne Y}, il y ${perturbation}, &lt;br&gt;&lt;/div&gt;&lt;div&gt;est-ce que j’adapte mon itinéraire ?&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="172.5" y="150" width="290" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="49zA7E8uAgKN05ij7QbK-2" value="&lt;div&gt;Prompt LLM RAG&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="49zA7E8uAgKN05ij7QbK-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="49zA7E8uAgKN05ij7QbK-3" target="49zA7E8uAgKN05ij7QbK-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="318" y="500" />
+              <mxPoint x="235" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="49zA7E8uAgKN05ij7QbK-3" value="&lt;div&gt;LLM entraîné sur itinéraires, données IdFM…&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(function calling)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="350" width="125" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="49zA7E8uAgKN05ij7QbK-6" value="nouvel itinéraire" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="172.5" y="660" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="49zA7E8uAgKN05ij7QbK-8" value="oui" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="49zA7E8uAgKN05ij7QbK-11" value="besoin de prévenir quelqu’un ?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="337.5" y="650" width="125" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="49zA7E8uAgKN05ij7QbK-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="49zA7E8uAgKN05ij7QbK-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="460" as="sourcePoint" />
+            <mxPoint x="440" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="500" />
+              <mxPoint x="400" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="49zA7E8uAgKN05ij7QbK-13" value="&lt;div&gt;non&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="337.5" y="470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="49zA7E8uAgKN05ij7QbK-14" value="LLM FALC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="167.5" y="540" width="300" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
