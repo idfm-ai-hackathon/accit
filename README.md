@@ -1,4 +1,41 @@
+# Accit
+
+## Présentation du projet
+
+Ce projet a été développé dans le cadre du [Hackathon IA et Mobilités](https://www.iledefrance-mobilites.fr/actualites/hackathon-2024-ia-et-mobilites), organisé par Île-de-France Mobilités les 21 et 22 novembre 2024. 
+Pour en savoir plus, voici le [Guide des participants et participantes](https://github.com/IleDeFranceMobilites/hackathon_ia_mobilites_2024).
+
+
+### Le problème et la proposition de valeur 
+> [!TIP]
+> Ici vous pouvez répondre aux questions suivantes : 
+> - A quel problème votre projet répond-t-il ?
+> - Quels sont les usagers cibles ? 
+
+
+### La solution
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+> [!TIP]
+> Ici vous pouvez présenter 
+> - Votre solution et son fonctionnement général
+> - Les données mobilisées
+> - Comment elle répond au problème
+
+### Les problèmes surmontés
+> [!TIP]
+> Ici vous pouvez présenter les principaux problèmes rencontrés et les solutions apportées
+
+### Et la suite ? 
+> [!TIP]
+> Ici vous vous projetez sur comment vous auriez aimé développer votre projet si vous aviez eu plus de temps ! (Quel cas d'usage pour la suite ? Quelles ressources à mobiliser ?)
+
+
+## Intallation et utilisation
+> [!TIP]
+> Si vous avez le temps, vous pouvez décrire les étapes d'installation de votre projet (commandes à lancer, ...) et son fonctionnement.
+
+
 
 ## Getting Started
 
