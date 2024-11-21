@@ -49,6 +49,9 @@
         <mxCell id="49zA7E8uAgKN05ij7QbK-14" value="LLM FALC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="167.5" y="540" width="300" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="49zA7E8uAgKN05ij7QbK-15" value="&lt;div&gt;fonctionnement :&lt;/div&gt;&lt;div&gt;- prend en entrée un texte ou message&lt;/div&gt;&lt;div&gt;- détermine s’il est assimilé FALC ou pas&lt;/div&gt;&lt;div&gt;- si non, renvoie un message plus simple&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(à tester sur messages interruptions RATP ?)&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="530" width="270" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
