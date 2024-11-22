@@ -21,7 +21,7 @@ Le fonctionnement serait le suivant :
 - lorsque l’utilisateur est en transit, et qu’une perturbation est détectée sur le trajet (ou impactant son trajet), Accit calcule un nouvel itinéraire en se basant sur
   - la position de l’utilisateur (obtenue par géolocalisation si possible, ou par interpolation sur son parcours si la géolocalisation est impossible, par exemple dans le métro),
   - ses paramètres de trajet (notamment accessibilité physique, vérification pour le nouvel itinéraire que les ascenceurs notamment sont fonctionnels),
-  - ses paramètres d’aménagements (à remplir dans le profil : guidage audio…).
+  - ses paramètres d’aménagements (à remplir dans le profil : guidage audio, FALC…).
   - ces calculs sont effectués par l’API Accit.
 - l’utilisateur est prévenu de l’itinéraire alternatif par une notification push (si l’application est fermée) ou une pop-up (si l’application est active).
 - il peut alors suivre cet itinéraire pas à pas, traduit en langage FALC par notre modèle, tout en cochant au fur et à mesure les étapes réalisées pour se rassurer.
@@ -53,9 +53,7 @@ Dans le deuxième écran (suivi des étapes du nouveau trajet), les choix suivan
 > Ici vous pouvez présenter les principaux problèmes rencontrés et les solutions apportées
 
 ### Et la suite ? 
-> [!TIP]
-> Ici vous vous projetez sur comment vous auriez aimé développer votre projet si vous aviez eu plus de temps ! (Quel cas d'usage pour la suite ? Quelles ressources à mobiliser ?)
-
+- Pour l’adaptation des trajets, il pourrait être souhaitable de rajouter dans le profil de l’application IdFM des possibilités d’aménagement qui seraient utilisées dans les fonctionnalités ; à l’heure actuelle, l’accessibilité physique est par exemple prise en compte au niveau de la recherche des trajets, mais pas forcément au niveau de l’utilisateur. La formulation doit être positive et non stigmatisante ; de nombreuses personnes peuvent se sentir mal à l’idée de cocher une case "handicap mental", alors que présenter ces paramètres comme des "aménagements" pourrait conduire à une meilleure adoption.
 
 ## Installation et utilisation
 > [!TIP]
