@@ -25,6 +25,7 @@ Le fonctionnement serait le suivant :
   - ces calculs sont effectués par l’API Accit.
 - l’utilisateur est prévenu de l’itinéraire alternatif par une notification push (si l’application est fermée) ou une pop-up (si l’application est active).
 - il peut alors suivre cet itinéraire pas à pas, traduit en langage FALC par notre modèle, tout en cochant au fur et à mesure les étapes réalisées pour se rassurer.
+- s’il n’y a pas d’itinéraire préférable mais que la perturbation est importante/se prolonge, une option ou un dialogue peut permettre de générer et d’envoyer un message facilement à une personne ressource (du répertoire, ou via la fonction "Partager" du téléphone).
 - à tout moment, il peut signaler qu’il n’a pas compris, ce qui permettra d’améliorer le modèle de FALC-isation.
 
 ### Éléments techniques
@@ -59,7 +60,7 @@ Dans le deuxième écran (suivi des étapes du nouveau trajet), les choix suivan
 > [!TIP]
 > Si vous avez le temps, vous pouvez décrire les étapes d'installation de votre projet (commandes à lancer, ...) et son fonctionnement.
 
-## Getting Started
+### Getting Started
 
 First, run the development server:
 
@@ -79,7 +80,7 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Deploy on Vercel
+### Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
