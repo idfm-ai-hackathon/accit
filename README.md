@@ -28,26 +28,26 @@ Le fonctionnement serait le suivant :
 - s’il n’y a pas d’itinéraire préférable mais que la perturbation est importante/se prolonge, une option ou un dialogue peut permettre de générer et d’envoyer un message facilement à une personne ressource (du répertoire, ou via la fonction "Partager" du téléphone).
 - à tout moment, il peut signaler qu’il n’a pas compris, ce qui permettra d’améliorer le modèle de FALC-isation.
 
+![Schéma de fonctionnement](archi_data.drawio.png)
+
 ### Éléments techniques
 Pour le front, le projet utilise (dans ce dossier de code) [Next.js](https://nextjs.org) initié avec [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 Ces éléments front utilisent une API décrite et disponible dans le dossier [accit-api](https://github.com/idfm-ai-hackathon/accit-api).
 
-> [!TIP]
-> Ici vous pouvez présenter 
-> - Votre solution et son fonctionnement général
-> - Les données mobilisées
-> - Comment elle répond au problème
->
 ### Choix de design
 L’accessibilité a été prise en compte dans plusieurs aspects du design :
 - l’interface est volontairement simple et épurée, elle utilise le système de design d’IdFM pour être familière pour l’utilisateur.
 - les couleurs choisies (de la charte graphique IdFM) ne sont volontairement pas les couleurs orange/rouge, qui peuvent être anxiogène.
 - la taille de police est fixée à 20 pour être lisible facilement (min 14 recommandé)
 
+![Maquette perturbation](maquette_perturbation.png)
+
 Dans le deuxième écran (suivi des étapes du nouveau trajet), les choix suivants ont été faits :
 - les étapes successives sont affichées séparément, on met en évidence les deux ou trois étapes suivantes mais pas plus, pour éviter une surcharge d’information,
 - on utilise le "bleu Interaction" d’IdFM pour signaler la possibilité d’interagir avec ces étapes
 - elles sont "cochables" au fur et à mesure, en "swipant" vers la droite, et apparaissent ensuite avec une bordure verte (couleur de la validation) pour garder un historique du parcours effectué.
+
+![Maquette itinéraire](maquette_itineraire.png)
 
 ### Les problèmes surmontés
 > [!TIP]
